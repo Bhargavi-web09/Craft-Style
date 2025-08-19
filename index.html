@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crafty Corner</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        .container {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        body {
+            overflow-x: hidden;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+
+        .container {
+            max-width: 100%;
+            overflow: hidden;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .carousel-inner {
+            width: 80%;
+            height: 500px;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+        }
+
+        .image {
+            height: 100px;
+            width: 250px;
+            margin: auto;
+            margin-top: 20px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image">
+        <img src="https://stylesatlife.com/wp-content/uploads/2023/08/Stylesatlife-logo-header.png.webp" alt="">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="https://i.pinimg.com/1200x/94/98/ad/9498ad57bb15a1efe52d064da48d7e54.jpg" alt="" width="5%">
+        <a class="navbar-brand" href="#">The Crafty Corner </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Paper Crafts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Wood Crafts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Textile Crafts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Jewellery Crafts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Decorative Crafts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Recycled Crafts</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+        </div>
+    </nav>
+    <div class="card">
+        <div id="myCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://alchetron.com/cdn/paper-craft-2b37d98b-b4dc-4153-8094-17c9d19a054-resize-750.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Paper Crafts</h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/736x/63/c7/71/63c7716a04d63a2894743c0a63cc76bd.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Wood Crafts</h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/736x/96/0b/a8/960ba8b03d9b7df1034a618830ea4505.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Textile Crafts</h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/736x/1a/f3/b4/1af3b4212eae2c3104f277dc3978c631.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Jewellery Crafts</h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/1200x/2c/69/b4/2c69b4c23de22e1002c70a23401350b0.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Decorative Crafts</h5>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/736x/8b/27/66/8b276639a0fd84484f19e70eae50671d.jpg"
+                        class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Recycled Crafts</h5>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </button>
+        </div>
+    </div>
+    </div>
+
+    <div class="container text-center">
+        <h1>Paper Crafts</h1>
+        <p>Paper craft is the art of making things using paper.You cut,fold,glue, or shape paper to create
+            decorations,toys,cards,or models.It's a fun and easy activity for kids and adults.</p>
+            <style>
+  .equal-card {
+    height: 400px; /* uniform card height */
+  }
+  .equal-card img {
+    height: 250px; /* uniform image height */
+    width: 100%;
+    object-fit: cover; /* crop instead of stretching */
+  }
+</style>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
+            <div class="col md-4">
+                <div class="card equal-card">
+                    <img src="https://www.craftsglossary.com/wp-content/uploads/2018/06/paper-marbling.jpg.webp"
+                        class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">PAPER MARBLING</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://www.craftsglossary.com/wp-content/uploads/2018/06/decoupage-1536x1024.jpeg" 
+                        class="card-img-top " alt="">
+                        <div class="card-body">
+                        <h5 class="card-title">DECOUPAGE</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="equal-card">
+                    <img 
+                        src="https://www.craftsglossary.com/wp-content/uploads/2018/06/papermaking.jpg"
+                        class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">PAPER MAKING</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://www.craftsglossary.com/wp-content/uploads/2018/06/papercutting-1536x1017.jpeg"
+                        class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">PAPERCUTTING</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://www.craftsglossary.com/wp-content/uploads/2018/06/embossing-1536x1124.jpg"
+                        class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">PAPER EMBOSSING</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://tse2.mm.bing.net/th/id/OIP.kCeyibf6FcVr1k-KIUiltgHaJ4?pid=Api&P=0&h=180.jpg"
+                        class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">PARCHMENT CRAFT</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h1>Wood Crafts</h1>
+        <p>Wood craft is the skill of turning plain wood into useful or beautiful items—like a simple shelf,a cutting
+            board,boxes,toys,or carvings.It’s about working with wood by cutting,joining,sanding,and finishing it to
+            create something you can use or admire </p>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
+            <div class="col md-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/94/5a/4d/945a4db103d96adfa4ece71f6b48295a.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Wood Carving</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/86/da/79/86da79f16f59355de8869f1170515c4e.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Pyrography</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://www.craftsglossary.com/wp-content/uploads/2018/06/papermaking.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Intarsia & Marquetry</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/cd/5c/b3/cd5cb35b323f04a9b76bc529dd9708cb.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Carpentry</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/13/54/42/13544285c240d18a4725b26a7c8a4053.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Block Carving</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/fe/e5/f5/fee5f59d06ed6c770938e2f33d75ff00.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">PARCHMENT CRAFT</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h1>Textile Crafts</h1>
+        <p>Textile crafts involve making things with fabric,thread,yarn,or fibers.People use techniques like
+            stitching,knotting,weaving,dyeing,and more to create decorative or useful items.</p>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
+            <div class="col md-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/20/e5/7c/20e57cd6a3e4089bb94f34839eeebd8a.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">EMBROIDERY</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://www.craftsglossary.com/wp-content/uploads/2018/06/lace-making.jpg.webp" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">LACE-MAKING</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/e8/a0/ef/e8a0ef05c7ae462339a90d340e9643ab.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">CANVAS WORK</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://www.craftsglossary.com/wp-content/uploads/2018/06/rope-making.jpg.webp"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">ROPE-MAKING</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://www.craftsglossary.com/wp-content/uploads/2018/06/macrame-craft.jpeg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">MACRAMÉ</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://www.craftsglossary.com/wp-content/uploads/2018/06/spinning.jpg.webp"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">SPINNING</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h1>Jewellery Crafts</h1>
+        <p>Textile crafts involve making things with fabric,thread,yarn,or fibers.People use techniques like
+            stitching,knotting,weaving,dyeing,and more to create decorative or useful items.</p>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
+            <div class="col md-4">
+                <div class="card equal-card">
+                    <img src="https://cdn.buttercms.com/NQbNNoOqRJKN8AL508kc.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Fabricated Jewelry</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/24/59/30/245930f1d5b4a4ef7d3656b0d71a4044.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Beaded Jewelry</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/59/97/ee/5997ee691844ff5db39ca4d87459728e.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Engraved Jewelry</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/55/c0/02/55c002940c52cabb48c8304a224f4de6.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Enameled Jewelry</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/4c/cb/42/4ccb42136ac415985ad7acf95ee710b1.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">metal clay</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/3c/a7/e5/3ca7e596499733a16c7860d889b71d96.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Wire Wrapped Jewelry</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h1>Decorative Crafts</h1>
+        <p>Decorative crafts are creative projects that turn everyday items into beautiful decorations you can display
+            or use in your home.They focus on making things look nice—not just functional.</p>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
+            <div class="col md-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/36/41/81/36418128570abc8c2e63960c55ff8bb3.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Haunted Mirror</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/16/f9/7e/16f97eb9d9f27c25e506290eef47c151.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Ceramics And Glass Decor</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/75/a1/79/75a179540be20bf8238282c7605b807b.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">upcycling Decor</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/bd/61/29/bd61291358e1ba0c56ef9cfe9b6407a7.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Throw Spoons Decor</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/08/32/ee/0832eed54423f29b27b7e4f35e9751b9.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Mosaic Decor</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/9a/e6/f0/9ae6f0746fd3fafed98682b05a3d7609.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Porcelain Decor</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h1>Recycled Crafts</h1>
+        <p>Recycled crafts are art projects made from items you were planning to throw away—like bottles, cartons, cans,
+            or boxes. With a bit of creativity, these everyday leftovers become decorative or functional crafts, helping
+            reduce waste and support the environment.</p>
+            <style>
+  .equal-card {
+    height: 400px; /* same height for all cards */
+  }
+
+  .equal-card img {
+    height: 250px; /* same image height */
+    width: 100%;   /* make sure image fills card width */
+    object-fit: cover; /* crop image without distortion */
+  }
+</style>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
+            <div class="col md-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/1e/72/ca/1e72ca04bacdc82b332a8159e6027737.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Tin Can Recycling</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/3d/b0/03/3db003f6b3d94f8843ee13024a8f8c9e.jpg" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title"> Miscellaneous Upcycles</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/ea/79/74/ea797430b74bd9342aba5aa277b34248.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Egg cartons</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/736x/66/60/9d/66609d7f469aed77f6c6c3b9219971de.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Cereal boxes&rolls</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/2d/b9/61/2db961d2b6592acb4db57d488213f633.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Wall art or fridge</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card equal-card">
+                    <img 
+                        src="https://i.pinimg.com/1200x/ad/00/9e/ad009e3b3e561ad1a2b05672d92a6de2.jpg"
+                        class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Planters</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <div class="container text-center col-ls-md-100 p-5">
+    <h1>Video Tutorial</h1>
+    <p>Take a virtual expedition through our video Tutorial</p>
+    <iframe width="1200" height="500" 
+        src="https://www.youtube.com/embed/HfQ1kGRwihk"
+        title="Different types of crafts" 
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+</div>
+    <div class="container text-center">
+        <h1>Subscribe to our Newsletter</h1>
+        <p>Sign up for Crafts Culture monthly newsletter to learn about our events, offers,designing and
+            more…</p>
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="E-mail">
+        <button type="button" class="btn btn-warning">Subscribe</button>
+    </div>
+    <div class="container ">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 mt-5">
+            <div class="col mb-4">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h1 class="card-title">https://www.aiacaonline.org/</h1>
+                        <p class="card-text">For Business/Trade/Classifications and Tenders please
+                            visit
+                        </p>
+                        <button type="button" class="btn btn-light"> <i
+                                class="fa-solid fa-greater-than"></i>Explore</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+
+                    <div class="card-body ">
+                        <h1 class="card-title">https://www.dastkar.org/</h1>
+                        <p class="card-text">Explore all the dastkar Crafts.
+                        </p>
+                        <button type="button" class="btn btn-light">Explore</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card h-100">
+
+                    <div class="card-body">
+                        <h1 class="card-title">https://craftvillage.org.in/</h1>
+                        <p class="card-text">Encourage village crafts for more useful products.
+                        </p>
+                        <button type="button" class="btn btn-light ">Explore </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-dark text-light  pt-4 pb-6">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <h5>Explore</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Creative visual design</a></li>
+                        <li><a href="#" class="text-white">How-to tutorials and DIY projects</a></li>
+                        <li><a href="#" class="text-white">Filtering by craft type</a></li>
+                        <li><a href="#" class="text-white">Interactive community elements</a></li>
+                        <li><a href="#" class="text-white">E-commerce or monetization</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Places</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Hoi An,Vietnam</a></li>
+                        <li><a href="#" class="text-white">Chiang Mai, Thailand</a></li>
+                        <li><a href="#" class="text-white">Jaipur,Rajasthan</a></li>
+                        <li><a href="#" class="text-white">Bishnupur,West Bengal</a></li>
+                        <li><a href="#" class="text-white">Pochampally, Telangana</a></li>
+                        <li><a href="#" class="text-white">Sargaalaya Crafts Village, Kerala</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Specialities</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Ceramics & Pottery</a></li>
+                        <li><a href="#" class="text-white">Glass & Stained Glass</a></li>
+                        <li><a href="#" class="text-white">Metal & Jewelry</a></li>
+                        <li><a href="#" class="text-white">Woodworking & Carving</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h5>Media</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Handmade Nation</a></li>
+                        <li><a href="#" class="text-white">Craft in America </a></li>
+                        <li><a href="#" class="text-white">Niche Art & Craft Publications</a></li>
+                        <li><a href="#" class="text-white">Magazines</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p class="mb-0"> Contact | Terms of Use | Privacy Policy </p>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p class="mb-0">
+                    <div class="row mt-3">
+                        <div class="col text-left p-3 ">
+                            <p class="mb-0"> All rights reserved © Culture of Crafts </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-4">
+                    <img src="https://img.freepik.com/premium-psd/facebook-transparent-icon-psd_1073073-2034.jpg?semt=ais_hybrid&w=50"
+                        class="background-image-light" alt="Kerala Scenery">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-3">
+                <div class="col-md-4">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_32U_ywv-oetDL1B16ft_QcUlcoAWtVMm6g&s"
+                        alt="Kerala Scenery" width="10%">
+                </div>
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-4">
+                    <img src="https://icon2.cleanpng.com/20190126/hve/kisspng-youtube-portable-network-graphics-logo-image-compu-1713904875839.webp"
+                        alt="" width="40">
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+
+</body>
